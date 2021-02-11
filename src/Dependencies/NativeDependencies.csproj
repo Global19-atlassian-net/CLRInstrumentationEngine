@@ -23,6 +23,7 @@
     <TargetFramework>net461</TargetFramework>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <NoWarn>CS2008</NoWarn>
   </PropertyGroup>
   <Choose>
     <When Condition="!$([MSBuild]::IsOsPlatform('Windows'))">

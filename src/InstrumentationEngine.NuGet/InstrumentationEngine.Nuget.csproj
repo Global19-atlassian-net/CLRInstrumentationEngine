@@ -27,7 +27,7 @@
     <ProjectGuid>{0B12FD8F-83DE-4A80-9BC1-ABE67E0E808A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>Microsoft.Diagnostics.InstrumentationEngine.NuGet</RootNamespace>
-    <NoWarn>2008</NoWarn>
+    <NoWarn>CS2008;NU5100</NoWarn>
     <Platforms>AnyCPU;x64;x86</Platforms>
   </PropertyGroup>
   <PropertyGroup>
